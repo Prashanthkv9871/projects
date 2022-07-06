@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    background-color: yellow;
+    padding: 20px;
+    font-size: 30px;   
+    font-weight: bold;
+}

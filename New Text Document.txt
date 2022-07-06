@@ -1,0 +1,3 @@
+git config --global user.name "Prashanthkv9871" 
+git config --global user.email "kvprashanth987@gmail.com"
+git remote add origin https://github.com/Prashanthkv9871/webfullstack.git

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/g1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: antiquewhite;
+}
+
+.navbar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.active, .navbar ul li:hover{
+    background-color: violet;
+    border-radius: 5px;
+}
